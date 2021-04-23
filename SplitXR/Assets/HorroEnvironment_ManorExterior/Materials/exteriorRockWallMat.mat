@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: exteriorRockWallMat
+  m_Shader: {fileID: 4800000, guid: 14c9b4cabf0fc6a4aad5db7684134e79, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: dc43eee895ec8dd4ca4b14f63fb171fb, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 372bf454022dab240adcafb8a4bf047c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Detail
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _UpTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 495f643088186114794047a136b24f20, type: 3}
+          m_Scale: {x: .5, y: .5}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SideTex
+        second:
+          m_Texture: {fileID: 2800000, guid: b615ec7fea26e41469fd4cb7e3b23211, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _UpBumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMapDetail
+        second:
+          m_Texture: {fileID: 2800000, guid: c2981de140994f64da505de52f66dfc8, type: 3}
+          m_Scale: {x: 3, y: 3}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AOTex
+        second:
+          m_Texture: {fileID: 2800000, guid: b270c7586ef54c741af5c1562711dc1f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SecTex
+        second:
+          m_Texture: {fileID: 2800000, guid: c7765a206319c014a97a61c93c09eaa2, type: 3}
+          m_Scale: {x: 3, y: 3}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SecBumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 923a13e35888b594e912868f4286d56e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .115098819
+      data:
+        first:
+          name: _RimPower
+        second: 3.84821415
+      data:
+        first:
+          name: _UpTexTile
+        second: 1
+      data:
+        first:
+          name: _UpTexFocus
+        second: 3.92857146
+      data:
+        first:
+          name: _UpTexIntensity
+        second: 10
+      data:
+        first:
+          name: _SideTexFocus
+        second: 6.42857122
+      data:
+        first:
+          name: _SideTexIntensity
+        second: 10
+      data:
+        first:
+          name: _Bumpness
+        second: 1
+      data:
+        first:
+          name: _DetailBumpness
+        second: 3
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .16349481, g: .26671043, b: .352941155, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: .0882353187, g: .0834745467, b: .0635813326, a: 1}

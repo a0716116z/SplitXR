@@ -1,0 +1,47 @@
+Thank you for purchasing PBR Temple pack!
+
+
+The temple pieces are modular and will allow you to create many variations.
+
+There is a prefab folder where you can find the assets, with lod's, static and lightmap enabled.
+
+The trees are compatible with the terrain and are already setups with lod's and colliders.
+
+Go to edit/project settings/player:
+Set your rendering path to Deferred and color space to linear
+
+
+To get similar visuals to the video and images please add the following components to your camera:
+
+Sun shafts: 
+
+Resolution : high
+Blend mode : add
+Threshold color: 66, 43, 28
+Shafts color: 110,120,128
+fallof: 0.1
+blur size:1
+blur iterations:2
+Intensity: 0.5
+
+Screen space ambient occlusion:
+
+radius: 0.1
+occl intensity: 2
+blur: 4
+Occl attenuation: 2
+min z: 0.001
+
+Global fog:
+
+Distance fog: enabled
+height fog: disabled
+
+Tone mapping:
+
+Adaptive Reinhard
+middle grey: 0.04
+White: 0.6
+Adaptation speed: 0.1
+
+
